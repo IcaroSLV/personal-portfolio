@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --purpleColor: blueViolet
+}
+
+.HomeContainer {
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.HomeContainer div {
+    width: 50%;
+    position: relative;
+    animation: showTitle 1s forwards ease-in-out;
+}
+
+@keyframes showTitle { 
+    0% {
+        right: 5em;
+        opacity: 0;
+    }
+    100% {
+        right: 0;
+        opacity: 1;
+    }
+    
+}
+
+.HomeContainer h3 span {
+    color: var(--purpleColor);
+    font-size: 1.6em;
+}
+
+.HomeContainer h1 {
+    text-shadow: .1em .1em .2em var(--purpleColor);
+}
+
+button {
+    font-size: 1.2em;
+    padding: .5em 1.2em;
+    background-color: var(--purpleColor);
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+    box-shadow: .1em .1em  white;
+    transition: .5s;
+}
+button:hover {
+    background-color: rgb(80, 4, 151);
+}
+
+
+
+button a {
+    text-decoration: none;
+    color: white;
+
+}
