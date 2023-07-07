@@ -29,6 +29,9 @@
     color: #d9a7d8;
 }
 
+.buttonList a {
+    color: white;
+}
 .buttonList a:hover {
     color: #d9a7d8;
     padding: 0 .5em;

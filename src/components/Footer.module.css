@@ -5,9 +5,21 @@
 }
 
 .footer {
+    padding-top: .5em ;
     width: 100%;
     background-color: var(--purpleColor);
     color: white;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div svg{
+    color: white;
+    font-size: 1.5em;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: .1em;
 
 }

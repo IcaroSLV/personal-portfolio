@@ -14,7 +14,6 @@ function NavBar() {
             <Link to='/educacao'>Educação</Link>
             <Link to='/projetos'>Projetos</Link>
             <Link to='/contatos'>Contatos</Link>
-
         </div>
     </nav>
     )
