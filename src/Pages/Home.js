@@ -24,6 +24,7 @@ function Home() {
                 <button>
                     <a href={Curriculo} download={'Curriculo.pdf'} type='application/pdf'>Baixar Curriculo</a>
                 </button>
+                <button><Link to='/projetos'>Meus Projetos</Link></button>
             </div>
             
         </div>

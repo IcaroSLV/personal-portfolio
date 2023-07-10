@@ -14,11 +14,12 @@
     font-family: 'Poppins', sans-serif;
     
 }
-.HomeContainer div {
-    width: 50%;
+.HomeContainer div:first-child {
+    width: 55%;
     position: relative;
     animation: showTitle 1s forwards ease-in-out;
 }
+
 
 @keyframes showTitle { 
     0% {
@@ -39,12 +40,11 @@
 
 .HomeContainer h1 {
     text-shadow: .1em .1em .2em var(--purpleColor);
+    margin: .5em 0em;
 }
 
 .ButtonContainer {
- width: 100%;
  display: flex;
- justify-content: space-between;
 }
 
 button {
@@ -57,6 +57,7 @@ button {
     cursor: pointer;
     box-shadow: .1em .1em  white;
     transition: .5s;
+    margin-right: 1em;
 }
 button:hover {
     background-color: rgb(80, 4, 151);
