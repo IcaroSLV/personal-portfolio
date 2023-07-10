@@ -1,7 +1,10 @@
 import styles from './Home.module.css'
 import {Link} from 'react-router-dom'
 
+import Curriculo from '../assets/Curriculo.pdf'
+
 function Home() {
+
     return(
     <div className={styles.HomeContainer}>
         <div>
@@ -16,7 +19,13 @@ function Home() {
                 com paixão em Front-End, estou sempre 
                 em busca de desafios para melhorar mais.
             </p>
-            <button><Link to='/sobre'>Sobre mim</Link></button>
+            <div className={styles.ButtonContainer}>
+                <button><Link to='/sobre'>Sobre mim</Link></button>
+                <button>
+                    <a href={Curriculo} download={'Curriculo.pdf'} type='application/pdf'>Baixar Curriculo</a>
+                </button>
+            </div>
+            
         </div>
     </div>
     )

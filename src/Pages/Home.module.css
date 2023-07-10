@@ -41,6 +41,12 @@
     text-shadow: .1em .1em .2em var(--purpleColor);
 }
 
+.ButtonContainer {
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+}
+
 button {
     font-size: 1.2em;
     padding: .5em 1.2em;
