@@ -6,10 +6,9 @@ function NavBar() {
     return(
     <nav className={styles.NavBar}>
         <div>
-            <Link to='/home'><h1>Icaro.</h1></Link>
+            <Link to='/'><h1>Icaro.</h1></Link>
         </div>
         <div className={styles.buttonList}>
-            <Link to='/home'>Home</Link>
             <Link to='/sobre'>Sobre</Link>
             <Link to='/educacao'>Educação</Link>
             <Link to='/projetos'>Projetos</Link>
