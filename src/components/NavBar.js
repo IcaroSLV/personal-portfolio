@@ -9,7 +9,8 @@ function NavBar() {
             <Link to='/'><h1>Icaro.</h1></Link>
         </div>
         <div className={styles.buttonList}>
-            <Link to='/sobre'>Sobre</Link>
+            <Link to='/'>Home</Link>
+            <Link to='/sobre'>Sobre mim</Link>
             <Link to='/educacao'>Educação</Link>
             <Link to='/projetos'>Projetos</Link>
             <Link to='/contatos'>Contatos</Link>

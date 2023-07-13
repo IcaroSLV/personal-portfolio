@@ -21,7 +21,7 @@
 .NavBar a {
     text-decoration: none;
     color: var(--purpleColor);
-    font-size: 1.1em;
+    font-size: 1.1rem;
     transition: 1s;
 }
 
@@ -39,6 +39,6 @@
 .buttonList {
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 45%;
     margin-right: 2em;
 }
