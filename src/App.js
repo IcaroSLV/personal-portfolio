@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 
 
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
 
 import Sobre from './Pages/Sobre';
 import Projetos from './Pages/Projetos'
