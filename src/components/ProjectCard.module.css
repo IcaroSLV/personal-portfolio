@@ -1,0 +1,68 @@
+.cardContainer {
+    height: 23em;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    border: 1px solid blueviolet;
+    z-index: 999;
+}
+
+.cardTitle {
+    width: 100%;
+}
+
+.cardTitle h1 {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: light;
+    border-bottom: 1px solid blueviolet;
+}
+
+.cardImage {
+    height: 15em;
+    width: 100%;
+}
+
+
+.cardImage p {
+    position: relative;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.616);
+
+}
+
+.cardImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(4px);
+}
+
+.cardImage img:hover{
+
+}
+
+.cardLinkButton {
+    margin-top: .3em;
+}
+
+.cardLinkButton a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    border-radius: 15px;
+    padding: .7em 2em;
+}
+
+.cardLinkButton a:hover {
+    background-color: rgb(122, 0, 236);
+    border-color: rgb(122, 0, 236);
+}
