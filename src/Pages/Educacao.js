@@ -9,14 +9,14 @@ function Educacao() {
                 <GiWhiteBook className={styles.icon}/>
             </div>
             <div className={styles.DescriptionContainer}>
-                <p>Continuo Cursando Análise e Desenvolvimento de sistemas. Ao longo dos anos adquiri conhecimentos
-                    valiosos e habilidades técnicas sólidas nesse campo em constante evolução.
+                <p>Ao longo dos anos adquiri conhecimentos
+                    valiosos e habilidades técnicas sólidas no campo de Análise e Desenvolvimento de Sistemas, bucando evolução constantemente.
                     <br/>
                     <br/>
                     Durante meu Curso, estou explorando conceitos fundamentais de programação, aprendendo diversas
-                    linguagem e desenvolvendo habilidades práticas de resolução de problemas.
+                    linguagens e desenvolvendo habilidades práticas na resolução de problemas.
                     <br/>
-                    Minha paixão por tecnologia e minha busca por conhecimento estão me impulsionando a explorar novas 
+                    Minha paixão por tecnologia e busca por conhecimento estão me impulsionando a explorar novas 
                     tendências e avanços no campo da Análise e Desenvolvimento de Sistemas. Estou sempre buscando oportunidades 
                     para aplicar o que aprendo em projetos práticos, a fim de aprimorar minhas habilidades e desenvolver minha criatividade.
                 </p>
@@ -24,10 +24,10 @@ function Educacao() {
             <div className={styles.listContainer}>
                 <h3>Disciplinas ja cursadas:</h3>
                 <ul>
-                    <li>Programação Orientada a objetos</li>
                     <li>Redes de computadores</li>
-                    <li>Desenvolvimento para dispositivos moveis</li>
-                    <li>Engenharia, Qualidade e Teste de software</li>
+                    <li>Programação Orientada a Objetos</li>
+                    <li>Desenvolvimento para Dispositivos Móveis</li>
+                    <li>Engenharia, Qualidade e Teste de Software</li>
                     <li>Arquitetura de Software e Computação em Nuvem</li>
                     <li>Inteligência Artificial Aplicada Aos Negócios</li>
                 </ul>

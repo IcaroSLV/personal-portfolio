@@ -10,28 +10,28 @@
         {
             "name": "Gerenciador de Projetos",
             "Image": "./assets/images/projectsImg/costsimg.png",
-            "Description": "Site para gerenciar projetos, inserir e calcular orçamentos",
+            "Description": "Site para gerenciar projetos, inserir e calcular orçamentos.",
             "gitLink": "https://github.com/IcaroSLV/Gerenciador-de-projetos"
     
         },
         {
             "name": "Avaliação de Filmes",
             "Image": "./assets/images/projectsImg/movieratingimg.png",
-            "Description": "Site para ver os melhores filmes da época e sua avaliação, sinopses, orçamentos",
+            "Description": "Site para ver os melhores filmes da época e sua avaliação, sinopses e orçamentos.",
             "gitLink": "https://github.com/IcaroSLV/Movies-Rating"
     
         },
         {
             "name": "To-do List",
             "Image": "./assets/images/projectsImg/todoimg.png",
-            "Description": "Site para organizar tárefas diárias e definir prioridades e aumentar sua produtividade",
+            "Description": "Site para organizar tárefas diárias, definir prioridades e aumentar sua produtividade.",
             "gitLink": "https://github.com/IcaroSLV/to-do-list"
     
         },
         {
-            "name": "Website de turismo espacial",
+            "name": "Website de Turismo Espacial",
             "Image": "./assets/images/projectsImg/spaceturismimg.png",
-            "Description": "Site para aprender sobre planetas, foguetes e astronautas ",
+            "Description": "Site para aprender sobre planetas, foguetes e astronautas. ",
             "gitLink": "https://github.com/IcaroSLV/Space-tourism-Website"
     
         }

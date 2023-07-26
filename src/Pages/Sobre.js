@@ -24,9 +24,11 @@ function Sobre() {
                 </div>
                 <div className={styles.DescriptionContainer}>
                     <p>
-                        Começei a estudar Javascript há mais de 1 ano e começei a me apaixonar mais e mais por Front-End,
-                        então começei a estudar React e criar muitos projetos para aprimorar mais minhas habilidades.
+                        Estudo Javascript há mais de 1 ano e passei a me interessar cada vez mais por Front-End,
+                        então, aprofundei os estudos em React e comecei a desenvolver muitos projetos para aprimorar minhas habilidades.
                         Tenho paixão por resolver problemas complexos e colaborar em equipe. 
+                        <br/>
+                        <br/>
                         Convido você a <span><Link to={'/projetos'}>explorar meu portfólio</Link></span> para conhecer alguns dos meus projetos e habilidades técnicas. 
                         Estou animado com as oportunidades que o futuro reserva no campo da programação e desenvolvimento de sistemas.
                         <br/>
