@@ -1,0 +1,41 @@
+.ContactContainer div{
+    display: flex;
+    gap: .5em;
+}
+
+.ContactContainer div a {
+    font-size: 1.5em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 2em;
+    width: 2em;
+    background-color: white;
+    color: blueviolet;
+    border-radius: 100%;
+    animation: showContacts 2s forwards ease-in-out;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px .5px blueviolet;
+}
+
+@keyframes showContacts {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .ContactContainer div{
+        flex-direction: column;
+    }
+    .ContactContainer div a{
+        font-size: .7;
+        height: 1.5em;
+        width: 1.5em;
+    }
+}

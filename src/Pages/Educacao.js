@@ -22,7 +22,7 @@ function Educacao() {
                 </p>
             </div>
             <div className={styles.listContainer}>
-                <h3>Disciplinas ja cursadas:</h3>
+                <h3>Disciplinas já cursadas:</h3>
                 <ul>
                     <li>Redes de computadores</li>
                     <li>Programação Orientada a Objetos</li>

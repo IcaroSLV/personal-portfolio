@@ -45,10 +45,6 @@
     filter: blur(4px);
 }
 
-.cardImage img:hover{
-
-}
-
 .cardLinkButton {
     margin-top: .3em;
 }
@@ -66,3 +62,9 @@
     background-color: rgb(122, 0, 236);
     border-color: rgb(122, 0, 236);
 }
+
+@media screen and (max-width:350px) {
+    .cardContainer {
+        width: 18em;
+    }
+  }

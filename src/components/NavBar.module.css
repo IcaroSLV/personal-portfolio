@@ -40,5 +40,67 @@
     display: flex;
     justify-content: space-around;
     width: 45%;
-    margin-right: 2em;
+    margin-right: 1em;
 }
+
+.hamburgerMenu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 2em;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 3px;
+    background-color: blueviolet;
+    transition: all 0.2s;
+    z-index: 999;
+  }
+  
+  .showMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    gap: 2.5em;
+    background-color: #1b1b1b;
+    z-index: 998;
+  }
+  
+  .showMenu a {
+    font-size: 1.5em;
+    border-bottom: 2px solid rgb(195, 131, 255);
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(195, 131, 255);
+  }
+
+  @media screen and (max-width:770px) {
+    .buttonList {
+        width: 70%;
+        margin-right: 1em;
+    }
+  }
+
+  @media screen and (max-width:550px) {
+    .buttonList{
+        display: none;
+    }
+    .hamburgerMenu {
+        display: flex;
+    }
+  }

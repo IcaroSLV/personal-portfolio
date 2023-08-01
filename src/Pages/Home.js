@@ -3,6 +3,8 @@ import {Link} from 'react-router-dom'
 
 import Curriculo from '../assets/Curriculo.pdf'
 
+import Contacts from '../components/Contacts'
+
 function Home() {
 
     return(
@@ -25,6 +27,9 @@ function Home() {
                     <a href={Curriculo} download={'Curriculo.pdf'} type='application/pdf'>Baixar Curriculo</a>
                 </button>
                 <button><Link to='/projetos'>Meus Projetos</Link></button>
+            </div>
+            <div className={styles.Contacts}>
+                <Contacts/>
             </div>
             
         </div>

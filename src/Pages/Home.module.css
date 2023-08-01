@@ -4,15 +4,13 @@
 }
 
 .HomeContainer {
-    background-color: black;
-    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     color: white;
-    
+    margin-top: 8em;
+    font-size: 1.1em;
 }
-.HomeContainer div:first-child {
+.HomeContainer > div {
     width: 55%;
     position: relative;
     animation: showTitle 1s forwards ease-in-out;
@@ -28,7 +26,6 @@
         right: 0;
         opacity: 1;
     }
-    
 }
 
 .HomeContainer h3 span {
@@ -43,10 +40,11 @@
 
 .ButtonContainer {
  display: flex;
+ flex-wrap: wrap;
 }
 
-button {
-    font-size: 1.2em;
+.ButtonContainer button {
+    font-size: 1em;
     padding: .5em 1.2em;
     background-color: var(--purpleColor);
     border: none;
@@ -57,14 +55,62 @@ button {
     transition: .5s;
     margin-right: 1em;
 }
-button:hover {
+.ButtonContainer button:hover {
     background-color: rgb(80, 4, 151);
 }
 
-
-
-button a {
+.ButtonContainer button a {
     text-decoration: none;
     color: white;
-
 }
+
+.Contacts {
+    position: fixed;
+    bottom: 1em;
+    right: 1.5em;
+}
+
+@media screen and (max-width:1037px) {
+    .HomeContainer {
+        margin-top: 5em;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .HomeContainer > div {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .HomeContainer {
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    .HomeContainer > div {
+        width: 90%;
+    }
+
+    .ButtonContainer {
+        justify-content: center;
+    }
+
+    .Contacts {
+        position: fixed;
+        bottom: .8em;
+        right: 1em;
+    }
+  }
+
+  @media screen and (max-width:425px) {
+    .HomeContainer h1{
+        font-size: 1.3em;
+    }
+    .HomeContainer h3 {
+        font-size: .8em;
+    }
+    .HomeContainer p {
+        font-size: .8em;
+    }
+  }

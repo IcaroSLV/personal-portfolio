@@ -5,7 +5,6 @@ import NavBar from './components/NavBar';
 
 import Sobre from './Pages/Sobre';
 import Projetos from './Pages/Projetos'
-import Contatos from './Pages/Contatos'
 import Educacao from './Pages/Educacao'
 import Home from './Pages/Home';
 
@@ -22,7 +21,6 @@ function App() {
           <Route path='/sobre' element={<Sobre/>}/>
           <Route path='/educacao' element={<Educacao/>}/>
           <Route path='/projetos' element={<Projetos/>}/>
-          <Route path='/contatos' element={<Contatos/>}/>
         </Routes>
       
       </div>

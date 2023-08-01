@@ -11,7 +11,7 @@ function ProjectCard({image, name, description, link}) {
                 <p>{description}</p>
             </div>
             <div className={styles.cardLinkButton}>
-                <a href={link}>Acessar código</a>
+                <a href={link} target="_blank">Acessar código</a>
             </div>
         </div>
     )

@@ -2,13 +2,12 @@
 
 
 .AboutContainer {
-    background-color: black;
-    height: 100%;
+    margin-top: 2em;
     color: white;
     display: flex;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-
+    margin-bottom: 1em;
 }
 
 .Container {
@@ -56,3 +55,19 @@ span a {
 span a:hover {
     color: #b04ebd;
 }
+
+@media screen and (max-width:800px) {
+    .DescriptionContainer {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .AboutContainer {
+        font-size: .9em;
+    }
+    .DescriptionContainer {
+        width: 95%;
+
+    }
+  }
