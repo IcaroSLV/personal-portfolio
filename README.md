@@ -15,7 +15,6 @@ Antes de executar este projeto, você precisa ter instalado o seguinte:
 
 Este projeto foi criado utilizando create-react-app, e utiliza as seguintes bibliotecas:
 
-- react
 - react-icons
 - react-router-dom
 
@@ -23,3 +22,6 @@ Para instalar todas as dependências, execute o seguinte comando:
 
 ```bash
 npm install
+=======
+npm install
+
