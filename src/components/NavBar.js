@@ -15,7 +15,7 @@ function NavBar() {
     return(
     <nav className={styles.NavBar}>
         <div>
-            <Link to='/'><h1>Icaro.</h1></Link>
+            <Link to='/'><h1>&lt; &#47; &gt;</h1></Link>
         </div>
         <button className={styles.hamburgerMenu} onClick={handleMenuClick}>
             <div className={styles.bar}></div>

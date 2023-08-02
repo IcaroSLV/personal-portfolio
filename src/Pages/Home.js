@@ -10,7 +10,7 @@ function Home() {
     return(
     <div className={styles.HomeContainer}>
         <div>
-            <h3>Olá, me chamo <span>Paulo Ícaro.</span></h3>
+            <h3>Olá, me chamo Paulo Ícaro!</h3>
             <h1>Frontend Developer</h1>
             <p>
                 Apaixonado por programação e 
