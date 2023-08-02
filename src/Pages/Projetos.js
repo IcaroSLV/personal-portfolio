@@ -14,7 +14,6 @@ function Projetos() {
 
     const ProjectsImg = [calculatorProject, costsProject, movieRatingProject, todoProject, spaceTurismProject]
 
-    const Project = projectData.Projects[0]
 
     return(
     <div className={styles.projectContainer}>
@@ -27,7 +26,8 @@ function Projetos() {
                     image={project}
                     name={projectData.Projects[index].name}
                     description={projectData.Projects[index].Description}
-                    link={projectData.Projects[index].gitLink}
+                    GITlink={projectData.Projects[index].gitLink}
+                    SITElink={projectData.Projects[index].siteLink}
                 />
             ))}
         </div>

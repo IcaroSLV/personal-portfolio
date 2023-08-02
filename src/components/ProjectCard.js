@@ -1,6 +1,6 @@
 import styles from './ProjectCard.module.css'
 
-function ProjectCard({image, name, description, link}) {
+function ProjectCard({image, name, description, GITlink, SITElink}) {
     return(
         <div className={styles.cardContainer}>
             <div className={styles.cardTitle}>
@@ -11,7 +11,15 @@ function ProjectCard({image, name, description, link}) {
                 <p>{description}</p>
             </div>
             <div className={styles.cardLinkButton}>
-                <a href={link} target="_blank">Acessar código</a>
+                {SITElink !== "" ? (
+                    <a href={SITElink} target="_blank">
+                        Ver Site
+                    </a>
+                ):(
+                    <a href={GITlink} target="_blank">
+                        Acessar código
+                    </a>
+                )}
             </div>
         </div>
     )
