@@ -31,7 +31,6 @@ function Home() {
             <div className={styles.Contacts}>
                 <Contacts/>
             </div>
-            
         </div>
     </div>
     )

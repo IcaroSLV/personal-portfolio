@@ -63,8 +63,24 @@
     border-color: rgb(122, 0, 236);
 }
 
+.siteButton a{
+    padding: .5em 1em;
+    margin: 0em .3em;
+}
+
+.siteButton a:first-child {
+    background-color: white;
+    border-color: white;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
 @media screen and (max-width:350px) {
     .cardContainer {
         width: 18em;
+        gap: auto;
+    }
+    .cardTitle h1 {
+        font-size: 1.1em;
     }
   }

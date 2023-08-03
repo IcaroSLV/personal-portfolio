@@ -12,9 +12,11 @@ function ProjectCard({image, name, description, GITlink, SITElink}) {
             </div>
             <div className={styles.cardLinkButton}>
                 {SITElink !== "" ? (
-                    <a href={SITElink} target="_blank">
-                        Ver Site
-                    </a>
+                    <div className={styles.siteButton}>
+                        <a href={SITElink} target="_blank">Ver Site</a>
+                        <a href={GITlink} target="_blank">Acessar código</a>
+                    </div>
+
                 ):(
                     <a href={GITlink} target="_blank">
                         Acessar código
