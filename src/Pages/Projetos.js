@@ -2,11 +2,11 @@ import ProjectCard from '../components/ProjectCard'
 
 import styles from './Projetos.module.css'
 
-import calculatorProject from '../assets/images/projectsImg/calculatorimg.png'
-import costsProject from '../assets/images/projectsImg/costsimg.png'
-import movieRatingProject from '../assets/images/projectsImg/movieratingimg.png'
-import todoProject from '../assets/images/projectsImg/todoimg.png'
-import spaceTurismProject from '../assets/images/projectsImg/spaceturismimg.png'
+import calculatorProject from '../assets/images/calculatorimg.png'
+import costsProject from '../assets/images/costsimg.png'
+import movieRatingProject from '../assets/images/movieratingimg.png'
+import todoProject from '../assets/images/todoimg.png'
+import spaceTurismProject from '../assets/images/spaceturismimg.png'
 
 import projectData from '../data.json'
 
