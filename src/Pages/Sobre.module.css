@@ -41,7 +41,7 @@
 }
 
 .DescriptionContainer {
-    width: 60%;
+    width: 65%;
     text-align: center;
 }
 
@@ -55,6 +55,7 @@ span a {
 span a:hover {
     color: #b04ebd;
 }
+
 
 @media screen and (max-width:800px) {
     .DescriptionContainer {

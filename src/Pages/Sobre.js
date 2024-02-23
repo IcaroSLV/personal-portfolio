@@ -24,8 +24,9 @@ function Sobre() {
                 </div>
                 <div className={styles.DescriptionContainer}>
                     <p>
-                        Estudo Javascript há mais de 1 ano e passei a me interessar cada vez mais por Front-End,
-                        então, aprofundei os estudos em React.js e comecei a desenvolver muitos projetos para aprimorar minhas habilidades.
+                        Estudo Javascript há mais de 2 ano e passei a me interessar cada vez mais por Front-End,
+                        então, aprofundei os estudos em React.js e comecei a desenvolver muitos projetos para aprimorar minhas habilidades junto com 
+                        back-end.
                         Gosto de resolver problemas complexos e colaborar em equipe. 
                         <br/>
                         <br/>
@@ -33,7 +34,7 @@ function Sobre() {
                         Estou animado com as oportunidades que o futuro reserva no campo da programação e desenvolvimento de sistemas.
                         <br/>
                         <br/>
-                        Atualmente <span><Link to={"/educacao"}>cursando Analise e Desenvolvimento de Sistema.</Link></span> Meu interesse pela tecnologia e programação começou cedo
+                       <span><Link to={"/educacao"}>Formado em Analise e Desenvolvimento de Sistema.</Link></span> Meu interesse pela tecnologia e programação começou cedo
                         e me motivou a focar meus estudos no desenvolvimento Front-End.
                     </p>
                 </div>

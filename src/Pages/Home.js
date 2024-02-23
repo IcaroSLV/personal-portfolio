@@ -11,14 +11,13 @@ function Home() {
     <div className={styles.HomeContainer}>
         <div>
             <h3>Olá, me chamo Paulo Ícaro!</h3>
-            <h1>Frontend Developer</h1>
+            <h1>Software Developer</h1>
             <p>
                 Apaixonado por programação e 
-                computação, sou programador 
-                WEB, busco constatemente 
+                computação, busco constatemente 
                 melhorar minhas habilidades na 
                 área de desenvolvimento de software, 
-                com paixão em Front-End, estou sempre 
+                com paixão em Front-End e Back-end, estou sempre 
                 em busca de desafios para melhorar mais.
             </p>
             <div className={styles.ButtonContainer}>
