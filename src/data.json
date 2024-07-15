@@ -33,12 +33,22 @@
     
         },
         {
+            "name": "Previsao Climática",
+            "Image": "./assets/images/projectsImg/weatherimg.png",
+            "Description": "Site para ver previsões de clima de cidades, estados e paises.",
+            "gitLink": "https://github.com/IcaroSLV/previsao-do-tempo",
+            "siteLink": "https://main--previsao-climatica.netlify.app"
+    
+        },
+        {
             "name": "Website de Turismo Espacial",
             "Image": "./assets/images/projectsImg/spaceturismimg.png",
-            "Description": "Site para aprender sobre planetas, foguetes e astronautas. ",
+            "Description": "Site para aprender sobre planetas, foguetes e astronautas.",
             "gitLink": "https://github.com/IcaroSLV/Space-tourism-Website",
             "siteLink": "https://main--discoveringspace.netlify.app"
     
         }
+
+
     ]
 }
