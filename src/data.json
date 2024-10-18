@@ -37,7 +37,7 @@
             "Image": "./assets/images/projectsImg/weatherimg.png",
             "Description": "Site para ver previsões de clima de cidades, estados e paises.",
             "gitLink": "https://github.com/IcaroSLV/previsao-do-tempo",
-            "siteLink": "https://main--previsao-climatica.netlify.app"
+            "siteLink": ""
     
         },
         {
@@ -47,6 +47,13 @@
             "gitLink": "https://github.com/IcaroSLV/Space-tourism-Website",
             "siteLink": "https://main--discoveringspace.netlify.app"
     
+        },
+        {
+            "name": "Site de Trivia Quiz",
+            "Image": "./assets/images/projectsImg/quizimg.png",
+            "Description": "Site de perguntas e curiosidades.",
+            "gitLink": "https://github.com/IcaroSLV/trivia-quiz",
+            "siteLink": "https://trivizquiz.netlify.app"
         }
 
 

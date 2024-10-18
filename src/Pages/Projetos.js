@@ -8,12 +8,13 @@ import movieRatingProject from '../assets/images/movieratingimg.png'
 import todoProject from '../assets/images/todoimg.png'
 import spaceTurismProject from '../assets/images/spaceturismimg.png'
 import weatherProject from '../assets/images/weatherimg.png'
+import quizProject from '../assets/images/quizimg.png'
 
 import projectData from '../data.json'
 
 function Projetos() {
 
-    const ProjectsImg = [calculatorProject, costsProject, movieRatingProject, todoProject, weatherProject, spaceTurismProject]
+    const ProjectsImg = [calculatorProject, costsProject, movieRatingProject, todoProject, weatherProject, spaceTurismProject, quizProject]
 
 
     return(

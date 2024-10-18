@@ -20,7 +20,7 @@ function Sobre() {
         <div className={styles.AboutContainer}>
             <div className={styles.Container}>
                 <div className={styles.ImgContainer}>
-                    <img src={dataAPI && dataAPI.avatar_url}></img>
+                    <img src={dataAPI && dataAPI.avatar_url} alt="avatar"></img>
                 </div>
                 <div className={styles.DescriptionContainer}>
                     <p>
